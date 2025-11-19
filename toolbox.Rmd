@@ -1,0 +1,72 @@
+---
+title: "My Data Science Toolbox"
+author: "ManojKadimisetty"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Introduction
+
+This document demonstrates my Data Science toolbox setup for the Coursera course "The Data Scientist's Toolbox" by Johns Hopkins University.
+
+## Tools Installed
+
+I have successfully installed and configured the following tools:
+
+### 1. R Programming Language
+
+- **Version:** `r R.version.string`
+- **Platform:** `r R.version$platform`
+
+### 2. RStudio IDE
+
+- Integrated Development Environment for R
+- Successfully installed and running
+
+### 3. Git Version Control
+
+- Git installed and configured
+- Connected to GitHub account
+
+### 4. GitHub Account
+
+- **Username:** ManojKadimisetty
+- **Repository:** data-science-toolbox
+- **URL:** https://github.com/ManojKadimisetty/data-science-toolbox
+
+## Sample R Code
+
+Here's a simple R code demonstration:
+
+Create a sample dataset
+x <- 1:10
+y <- x^2
+
+Calculate mean
+mean_x <- mean(x)
+mean_y <- mean(y)
+
+Print results
+cat("Mean of x:", mean_x, "\n")
+cat("Mean of y:", mean_y, "\n")
+
+Create a simple plot
+plot(x, y, type="b", col="blue",
+main="Simple Plot Example",
+xlab="X values", ylab="Y values")
+
+
+## Conclusion
+
+I have successfully set up my complete Data Science toolbox including:
+
+- ✅ R (version `r R.version.string`)
+- ✅ RStudio IDE
+- ✅ Git version control
+- ✅ GitHub repository
+- ✅ R Markdown for reproducible documents
+
+This toolbox is ready for data science projects and analysis!
+
+
+
